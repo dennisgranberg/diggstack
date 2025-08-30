@@ -1,0 +1,64 @@
+# === FRONTEND ===
+
+# Logs
+diggvue/logs
+*.log
+diggvue/npm-debug.log*
+diggvue/yarn-debug.log*
+diggvue/yarn-error.log*
+diggvue/pnpm-debug.log*
+diggvue/lerna-debug.log*
+
+# Dependencies
+diggvue/node_modules/
+
+# Build output
+diggvue/dist/
+diggvue/dist-ssr/
+diggvue/coverage/
+diggvue/*.local
+
+# Cypress output
+diggvue/cypress/videos/
+diggvue/cypress/screenshots/
+
+# Editor config (diggvue)
+diggvue/.vscode/*
+!diggvue/.vscode/extensions.json
+diggvue/.idea
+
+# TypeScript build info
+diggvue/*.tsbuildinfo
+
+# === BACKEND ===
+
+# Maven output
+diggbackend/HELP.md
+diggbackend/target/
+diggbackend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring/IDE-related
+diggbackend/.apt_generated
+diggbackend/.classpath
+diggbackend/.factorypath
+diggbackend/.project
+diggbackend/.settings
+diggbackend/.springBeans
+diggbackend/.sts4-cache
+
+# IntelliJ
+diggbackend/.idea
+diggbackend/*.iws
+diggbackend/*.iml
+diggbackend/*.ipr
+
+# NetBeans
+diggbackend/nbproject/private/
+diggbackend/nbbuild/
+diggbackend/dist/
+diggbackend/nbdist/
+diggbackend/.nb-gradle/
+diggbackend/build/
+
+# VS Code
+diggbackend/.vscode/

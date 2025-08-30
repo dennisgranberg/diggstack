@@ -1,0 +1,36 @@
+# === General ===
+**/.DS_Store
+**/Thumbs.db
+**/.idea
+**/.vscode
+**/.env
+**/.env.*      # In case you use env files for Vue
+**/*.log
+
+# === Node.js / Frontend ===
+frontend/node_modules
+frontend/dist
+frontend/.npm
+frontend/.cache
+frontend/coverage
+frontend/.turbo
+frontend/pnpm-lock.yaml
+
+# === Java / Backend ===
+backend/target
+backend/.mvn
+backend/.classpath
+backend/.project
+backend/.settings
+backend/.idea
+backend/.vscode
+backend/logs
+backend/build
+
+# === Git ===
+.git
+.gitignore
+
+# === Docker ===
+Dockerfile
+.dockerignore
