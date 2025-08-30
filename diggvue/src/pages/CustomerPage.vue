@@ -1,10 +1,3 @@
-<template>
-  <div>
-    <CustomerForm @customer-created="refreshTable" />
-    <CustomerTable ref="customerTable" />
-  </div>
-</template>
-
 <script setup lang="ts">
 
 import { ref } from 'vue';
@@ -17,3 +10,10 @@ function refreshTable() {
   customerTable.value?.fetchData();
 }
 </script>
+
+<template>
+  <div>
+    <CustomerForm @customer-created="refreshTable" />
+    <CustomerTable ref="customerTable" />
+  </div>
+</template>

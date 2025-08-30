@@ -29,6 +29,11 @@ async function fetchData() {
 }
 
 onMounted(fetchData);
+
+defineExpose({
+  fetchData,
+});
+
 </script>
 
 <template>
